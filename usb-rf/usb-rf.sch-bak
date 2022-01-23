@@ -214,7 +214,7 @@ F 1 "GR" V 2595 4448 50  0000 L CNN
 F 2 "LED_SMD:LED_0603_1608Metric" V 2550 4350 50  0001 C CNN
 F 3 "~" V 2550 4350 50  0001 C CNN
 	1    2550 4350
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED_Small D2
@@ -225,7 +225,7 @@ F 1 "YL" V 2845 4448 50  0000 L CNN
 F 2 "LED_SMD:LED_0603_1608Metric" V 2800 4350 50  0001 C CNN
 F 3 "~" V 2800 4350 50  0001 C CNN
 	1    2800 4350
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0104
@@ -480,7 +480,7 @@ U 1 1 61E6E69A
 P 7800 1150
 F 0 "J3" H 7850 1567 50  0000 C CNN
 F 1 "ARM 10 pin" H 7850 1476 50  0000 C CNN
-F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical_SMD" H 7800 1150 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 7800 1150 50  0001 C CNN
 F 3 "~" H 7800 1150 50  0001 C CNN
 	1    7800 1150
 	1    0    0    -1  
@@ -1134,97 +1134,78 @@ RF24L01 datasheet regarding layout.
 $Comp
 L Device:R_Small R5
 U 1 1 61F12F19
-P 7100 5050
-F 0 "R5" V 7300 4950 50  0000 L CNN
-F 1 "1M" V 7200 4950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 7100 5050 50  0001 C CNN
-F 3 "~" H 7100 5050 50  0001 C CNN
-	1    7100 5050
+P 7100 4950
+F 0 "R5" V 7200 5000 50  0000 L CNN
+F 1 "1M" V 7200 4850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7100 4950 50  0001 C CNN
+F 3 "~" H 7100 4950 50  0001 C CNN
+	1    7100 4950
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Crystal_GND23 Y1
-U 1 1 61F16555
-P 7100 5500
-F 0 "Y1" H 6850 5850 50  0000 L CNN
-F 1 "16MHz" H 6800 5750 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 7100 5500 50  0001 C CNN
-F 3 "~" H 7100 5500 50  0001 C CNN
-	1    7100 5500
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C17
 U 1 1 61F16DDF
-P 6800 5850
-F 0 "C17" H 6892 5896 50  0000 L CNN
-F 1 "12p" H 6900 6000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6800 5850 50  0001 C CNN
-F 3 "~" H 6800 5850 50  0001 C CNN
-	1    6800 5850
+P 6800 5750
+F 0 "C17" H 6892 5796 50  0000 L CNN
+F 1 "12p" H 6900 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6800 5750 50  0001 C CNN
+F 3 "~" H 6800 5750 50  0001 C CNN
+	1    6800 5750
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C18
 U 1 1 61F18048
-P 7400 5850
-F 0 "C18" H 7492 5896 50  0000 L CNN
-F 1 "12p" H 7500 6000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7400 5850 50  0001 C CNN
-F 3 "~" H 7400 5850 50  0001 C CNN
-	1    7400 5850
+P 7400 5750
+F 0 "C18" H 7492 5796 50  0000 L CNN
+F 1 "12p" H 7500 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7400 5750 50  0001 C CNN
+F 3 "~" H 7400 5750 50  0001 C CNN
+	1    7400 5750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7100 6100 7400 6100
+	7100 6000 7400 6000
 Wire Wire Line
-	7400 6100 7400 5950
+	7400 6000 7400 5850
 Wire Wire Line
-	6800 5950 6800 6100
+	6800 5850 6800 6000
 Wire Wire Line
-	6800 6100 7100 6100
-Connection ~ 7100 6100
+	6800 6000 7100 6000
+Connection ~ 7100 6000
 Wire Wire Line
-	6800 5750 6800 5500
+	6800 5650 6800 5400
 Wire Wire Line
-	6800 5500 6950 5500
+	6800 5400 6800 4950
 Wire Wire Line
-	6800 5500 6800 5050
+	6800 4950 7000 4950
+Connection ~ 6800 5400
 Wire Wire Line
-	6800 5050 7000 5050
-Connection ~ 6800 5500
+	7100 5650 7100 6000
+Connection ~ 7100 5650
 Wire Wire Line
-	7100 5750 7100 6100
+	7400 5650 7400 5400
 Wire Wire Line
-	7100 5700 7100 5750
-Connection ~ 7100 5750
+	7300 5150 7300 5650
 Wire Wire Line
-	7100 5300 7100 5250
+	7100 5650 7300 5650
 Wire Wire Line
-	7400 5750 7400 5500
+	7100 5150 7300 5150
 Wire Wire Line
-	7300 5250 7300 5750
+	7400 5400 7400 4950
 Wire Wire Line
-	7100 5750 7300 5750
-Wire Wire Line
-	7100 5250 7300 5250
-Wire Wire Line
-	7250 5500 7400 5500
-Wire Wire Line
-	7400 5500 7400 5050
-Wire Wire Line
-	7400 5050 7200 5050
-Connection ~ 7400 5500
-Text GLabel 6700 5050 0    50   Input ~ 0
+	7400 4950 7200 4950
+Connection ~ 7400 5400
+Text GLabel 6700 4950 0    50   Input ~ 0
 NRF_XC1
-Text GLabel 7500 5050 2    50   Input ~ 0
+Text GLabel 7500 4950 2    50   Input ~ 0
 NRF_XC2
 Wire Wire Line
-	6700 5050 6800 5050
-Connection ~ 6800 5050
+	6700 4950 6800 4950
+Connection ~ 6800 4950
 Wire Wire Line
-	7400 5050 7500 5050
-Connection ~ 7400 5050
+	7400 4950 7500 4950
+Connection ~ 7400 4950
 Wire Notes Line
 	6250 4750 6250 6150
 Wire Notes Line
@@ -1237,4 +1218,128 @@ Text Notes 6250 4750 0    50   ~ 0
 RF24 Crystal Oscillator
 Text Notes 6250 6250 0    50   ~ 0
 Load Caps: C = 2 * ( Cload - Cstray )
+$Comp
+L power:GND #PWR0128
+U 1 1 62102125
+P 7100 6000
+F 0 "#PWR0128" H 7100 5750 50  0001 C CNN
+F 1 "GND" H 7250 5950 50  0000 C CNN
+F 2 "" H 7100 6000 50  0001 C CNN
+F 3 "" H 7100 6000 50  0001 C CNN
+	1    7100 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5150 7100 5300
+Wire Wire Line
+	7100 5500 7100 5650
+Wire Wire Line
+	7200 5400 7400 5400
+Wire Wire Line
+	6800 5400 7000 5400
+$Comp
+L Device:Crystal_GND24_Small Y1
+U 1 1 6211FB6F
+P 7100 5400
+F 0 "Y1" H 7500 5400 50  0000 L CNN
+F 1 "16 MHz" H 7500 5300 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 7100 5400 50  0001 C CNN
+F 3 "~" H 7100 5400 50  0001 C CNN
+	1    7100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61ED0476
+P 9550 1000
+F 0 "H2" H 9650 1046 50  0000 L CNN
+F 1 "MountingHole" H 9650 955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9550 1000 50  0001 C CNN
+F 3 "~" H 9550 1000 50  0001 C CNN
+	1    9550 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61ED0BB2
+P 9550 1250
+F 0 "H3" H 9650 1296 50  0000 L CNN
+F 1 "MountingHole" H 9650 1205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9550 1250 50  0001 C CNN
+F 3 "~" H 9550 1250 50  0001 C CNN
+	1    9550 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61ED1128
+P 9550 1500
+F 0 "H4" H 9650 1546 50  0000 L CNN
+F 1 "MountingHole" H 9650 1455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9550 1500 50  0001 C CNN
+F 3 "~" H 9550 1500 50  0001 C CNN
+	1    9550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61ECFCEE
+P 9550 750
+F 0 "H1" H 9650 796 50  0000 L CNN
+F 1 "MountingHole" H 9650 705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9550 750 50  0001 C CNN
+F 3 "~" H 9550 750 50  0001 C CNN
+	1    9550 750 
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9450 600  9450 1650
+Wire Notes Line
+	9450 1650 10350 1650
+Wire Notes Line
+	10350 1650 10350 600 
+Wire Notes Line
+	10350 600  9450 600 
+Text Notes 9450 600  0    50   ~ 0
+Mounting Holes
+$Comp
+L Device:LED_Small D3
+U 1 1 61EEF28E
+P 4200 1000
+F 0 "D3" H 4100 800 50  0000 L CNN
+F 1 "RD" H 4100 900 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4200 1000 50  0001 C CNN
+F 3 "~" V 4200 1000 50  0001 C CNN
+	1    4200 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 61EF03F4
+P 4450 1000
+F 0 "R6" V 4250 950 50  0000 L CNN
+F 1 "2k2" V 4350 950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4450 1000 50  0001 C CNN
+F 3 "~" H 4450 1000 50  0001 C CNN
+	1    4450 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 61F0E684
+P 4650 1000
+F 0 "#PWR0129" H 4650 750 50  0001 C CNN
+F 1 "GND" V 4750 950 50  0000 C CNN
+F 2 "" H 4650 1000 50  0001 C CNN
+F 3 "" H 4650 1000 50  0001 C CNN
+	1    4650 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 1000 4100 1000
+Connection ~ 4050 1000
+Wire Wire Line
+	4300 1000 4350 1000
+Wire Wire Line
+	4550 1000 4650 1000
 $EndSCHEMATC

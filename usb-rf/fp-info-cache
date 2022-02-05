@@ -1,4 +1,4 @@
-19216193130753585
+19412855011509496
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56209,6 +56209,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Logos
+lemon_logo
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -83026,8 +83033,22 @@ varistor SIOV
 0
 2
 2
-usb-rf
-stm-rf-guard-ring-1
+footprints
+SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount-SeanCopyy
+Connector SMA, 0Hz to 20GHz, 50Ohm, Edge Mount (http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf)
+SMA Straight Samtec Edge Mount
+0
+5
+2
+footprints
+USB_Micro-B_Molex-105017-0001-SeanCopy
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+13
+6
+footprints
+guard-ring-v1
 
 
 0

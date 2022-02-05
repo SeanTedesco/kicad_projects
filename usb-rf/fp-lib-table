@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name usb-rf)(type KiCad)(uri /Users/sean/OneDrive/Documents/kicad_projects/my-library/usb-rf.pretty)(options "")(descr ""))
+)

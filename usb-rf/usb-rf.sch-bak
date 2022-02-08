@@ -1049,7 +1049,7 @@ U 1 1 61E929E0
 P 8400 2850
 F 0 "J2" H 8500 2825 50  0000 L CNN
 F 1 "SMA" H 8500 2734 50  0000 L CNN
-F 2 "footprints:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount_SeanCopy" H 8400 2850 50  0001 C CNN
+F 2 "footprints:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount-SeanCopyy" H 8400 2850 50  0001 C CNN
 F 3 " ~" H 8400 2850 50  0001 C CNN
 	1    8400 2850
 	1    0    0    -1  

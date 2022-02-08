@@ -1,0 +1,32 @@
+Designator, Quantity,Comment, Footprint,LCSC Part Number, Datasheet
+C12 ,1,33n,Capacitor_SMD:C_0402_1005Metric,C466238,~
+C13 ,1,1p5,Capacitor_SMD:C_0402_1005Metric,C1552,~
+C14 ,1,1p,Capacitor_SMD:C_0402_1005Metric,C1550,~
+C15 ,1,2n2,Capacitor_SMD:C_0402_1005Metric,C1531,~
+C16 ,1,4p7,Capacitor_SMD:C_0402_1005Metric,C1569,~
+C17 C18 ,2,12p,Capacitor_SMD:C_0402_1005Metric,C1547,~
+C1 C2 ,2,10u,Capacitor_SMD:C_0603_1608Metric,C96446,~
+C4 ,1,1u,Capacitor_SMD:C_0402_1005Metric,C52923,~
+C3 C5 C6 C7 ,4,100n,Capacitor_SMD:C_0402_1005Metric,C880295,~
+C8 ,1,10u,Capacitor_SMD:C_0402_1005Metric,C15525,~
+C9 C10 C11 ,3,10n,Capacitor_SMD:C_0402_1005Metric,C15195,~
+D1 ,1,GR,LED_SMD:LED_0603_1608Metric,C434420,~
+D2 ,1,YL,LED_SMD:LED_0603_1608Metric,C165981,~
+D3 ,1,RD,LED_SMD:LED_0603_1608Metric,C375573,~
+F1 ,1,100mA,Fuse:Fuse_1206_3216Metric,C369154,~
+FB1 ,1,100 @ 100MHz,Inductor_SMD:L_0805_2012Metric,C1015,~
+J1 ,1,USB_B_Micro,USB_Micro-B_Molex-105017-0001,C10418,~
+J2 ,1,SMA,SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount,C496550, ~
+J3 ,1,ARM 10 pin,Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical,C350287,~
+L1 ,1,3n9,Inductor_SMD:L_0402_1005Metric,C14033,~
+L2 ,1,8n2,Inductor_SMD:L_0402_1005Metric,C16208,~
+L3 ,1,2n7,Inductor_SMD:L_0402_1005Metric,C27123,~
+R1 ,1,10k,Resistor_SMD:R_0402_1005Metric,C269674,~
+R2 R3 R6 ,3,1k,Resistor_SMD:R_0603_1608Metric,C328418,~
+R4 ,1,22k,Resistor_SMD:R_0402_1005Metric,C25768,~
+R5 ,1,1M,Resistor_SMD:R_0402_1005Metric,C26083,~
+U1 ,1,STM32L432KBUx,Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm,C94784,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf
+U2 ,1,XC6206PxxxMR,Package_TO_SOT_SMD:SOT-23,C5446,https://www.torexsemi.com/file/xc6206/XC6206.pdf
+U3 ,1,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,C7519,https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+U4 ,1,nRF24L01P,Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm,C8791,http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf
+Y1 ,1,16 MHz,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,C12668,~

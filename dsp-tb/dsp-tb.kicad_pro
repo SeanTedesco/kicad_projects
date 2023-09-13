@@ -419,7 +419,9 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(D6-K)": "VCC_FILT"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -475,6 +477,14 @@
     [
       "b9510bcf-f5e5-4325-b45b-2bce66c59309",
       "POWER"
+    ],
+    [
+      "4ece974f-bb88-4f72-af28-accd304a3fe6",
+      "MCU"
+    ],
+    [
+      "3b992073-4928-446f-8036-a46b12ab5e54",
+      "MEMORY"
     ]
   ],
   "text_variables": {}

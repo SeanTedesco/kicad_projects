@@ -485,6 +485,22 @@
     [
       "3b992073-4928-446f-8036-a46b12ab5e54",
       "MEMORY"
+    ],
+    [
+      "0bc5cf3f-a33f-4651-88c6-7babafeeb745",
+      "USB"
+    ],
+    [
+      "2850d375-b8b2-4f84-a1bd-9fdeae01ce27",
+      "CONNECTORS"
+    ],
+    [
+      "d8974341-1476-48a2-a984-e0d683a1634a",
+      "CODEC"
+    ],
+    [
+      "aa4a47f0-c351-44a5-891b-ecae0804448c",
+      "ANALOG"
     ]
   ],
   "text_variables": {}
